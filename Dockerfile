@@ -4,6 +4,7 @@ FROM python:3.6
 WORKDIR /app
 # Install pip dependencies from requirements
 RUN pip install -r requirements.txt
+
 # Set YOUR_NAME environment variable
 ENV YOUR_NAME="Avinash"
 # Expose the correct port
